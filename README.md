@@ -61,8 +61,8 @@ http://localhost:3001/leaderboard
   
 
 
-###Finishing Thoughts 
-# What would be different
+### Finishing Thoughts 
+## What would be different
 - I would have backend and frontend as separated projects and repos, its better for maintenance! (also microservices) Should probably separate the queue from the backend as well so they can all scalate separatedely and be maintained separatedely
 - The queue logic should be way more robust and scalable, specially on keeping track of concurrent battles, it's the key to proper scalating this in order to be able to handle hundreads of requests at the same time
 - For a quick testing I thought about creating workers/scripts to automatically battle each other at random, just to see the queue getting busy
